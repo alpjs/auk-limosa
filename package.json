@@ -1,0 +1,32 @@
+{
+  "name": "auk-limosa",
+  "version": "1.0.3",
+  "description": "router limosa in auk server",
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "alpjs/auk-limosa",
+  "keywords": [
+    "alp",
+    "auk"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpjs/auk-limosa/issues"
+  },
+  "homepage": "https://github.com/alpjs/auk-limosa#readme",
+  "dependencies": {
+    "alp-limosa": "^1.0.0"
+  },
+  "peerDependencies": {
+    "auk-config": "^1.0.0",
+    "auk-language": "^1.0.0"
+  }
+}
