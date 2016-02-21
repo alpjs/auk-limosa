@@ -15,9 +15,5 @@
   "homepage": "https://github.com/alpjs/auk-limosa#readme",
   "dependencies": {
     "alp-limosa": "^2.0.0"
-  },
-  "peerDependencies": {
-    "auk-config": "^1.1.0",
-    "auk-language": "^1.1.0"
   }
 }
